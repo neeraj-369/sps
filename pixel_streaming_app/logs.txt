@@ -1,0 +1,48 @@
+[2023.08.30-16.10.39:636][ 27]LogPlayFab: Response : {"code":200,"status":"OK","data":{"Items":[{"Id":"0d909b30-a55c-49a1-9564-16303346c416","Type":"ugc","AlternateIds":[],"Title":{"NEUTRAL":"LaLaSpecialConcert"},"Description":{"NEUTRAL":"This is a special concert"},"Keywords":{"NEUTRAL":{"Values":["specialevent","thanos007","Event"]}},"CreatorEntity":{"Id":"1860C5E36BFF3022","Type":"title_player_account","TypeString":"title_player_account"},"IsHidden":false,"Platforms":[],"Tags":[],"CreationDate":"2023-08-17T12:44:06.762Z","LastModifiedDate":"2023-08-27T09:06:00.697Z","StartDate":"2023-08-17T12:35:00Z","EndDate":"2023-08-31T12:30:00Z","Contents":[],"Images":[],"ItemReferences":[],"PriceOptions":{"Prices":[]},"DeepLinks":[],"DisplayProperties":{"DJName":"","IP0":"52.170.3.190:30600","IP1":"52.170.3.190:30400","Status":"Starting Soon"}},{"Id":"93759356-e911-4cfe-86ce-3bf55b533fac","Type":"ugc","AlternateIds":[],"Title":{"NEUTRAL":"demo test"},"Description":{},"Keywords":{},"CreatorEntity":{"Id":"90969E38EC4B5BCC","Type":"title_player_account","TypeString":"title_player_account"},"Platforms":[],"Tags":[],"CreationDate":"2023-07-13T11:43:57.447Z","LastModifiedDate":"2023-07-27T14:16:23.288Z","StartDate":"2023-07-27T14:16:23.288Z","Contents":[],"Images":[],"ItemReferences":[],"DeepLinks":[],"DisplayProperties":{"DJName":"Immersive","IP1":"10.20.30.40"}},{"Id":"c85a2ff9-0943-48fd-89e3-02f176712716","Type":"ugc","AlternateIds":[],"Title":{"NEUTRAL":"demo test 2"},"Description":{},"Keywords":{},"CreatorEntity":{"Id":"90969E38EC4B5BCC","Type":"title_player_account","TypeString":"title_player_account"},"Platforms":[],"Tags":[],"CreationDate":"2023-07-22T05:55:01.515Z","LastModifiedDate":"2023-08-11T05:17:30.66Z","StartDate":"2023-08-11T05:17:30.66Z","EndDate":"2023-09-15T00:00:00Z","Contents":[],"Images":[],"ItemReferences":[],"DeepLinks":[],"DisplayProperties":{"DJName":"","IP0":"52.142.45.198:30601","IP1":"52.142.45.198:30001"}},{"Id":"f9e8ad80-1349-4594-8e5e-4995714f08a4","Type":"currency","AlternateIds":[{"Type":"FriendlyId","Value":"SC"}],"Title":{"NEUTRAL":"Silver Currency"},"Description":{},"Keywords":{},"CreatorEntity":{"Id":"5068B","Type":"title","TypeString":"title"},"IsHidden":false,"Platforms":[],"Tags":[],"CreationDate":"2023-07-22T05:50:00.497Z","LastModifiedDate":"2023-07-22T05:50:01.275Z","StartDate":"2023-07-01T00:00:00Z","Contents":[],"Images":[],"ItemReferences":[],"PriceOptions":{"Prices":[]},"DeepLinks":[],"DisplayProperties":{}}]}}
+[2023.08.30-16.10.39:637][ 27]LogBlueprintUserMessages: [AttendeeEvents_C_2147482365] Hello
+[2023.08.30-16.10.39:650][ 29]LogRHI: Display: Encountered a new graphics PSO: 3538057989
+[2023.08.30-16.10.53:705][979]LogPlayFab: Request: {
+	"CollectionId": null,
+	"ContinuationToken": null,
+	"Count": 10,
+	"Filter": "type eq 'ugc'"
+}
+[2023.08.30-16.10.53:871][  3]LogPlayFab: Response : {"code":200,"status":"OK","data":{"Items":[{"Id":"0d909b30-a55c-49a1-9564-16303346c416","StackId":"default","DisplayProperties":{},"Amount":1,"Type":"ugc"},{"Id":"43a98c11-8db9-446b-9eb0-783738a871e1","StackId":"default","DisplayProperties":{},"Amount":1,"Type":"ugc"}],"ETag":"1/Mw=="}}
+[2023.08.30-16.10.53:871][  3]LogPlayFab: Request: {
+	"AlternateIds": null,
+	"Ids": [
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1",
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1",
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1",
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1"
+	]
+}
+[2023.08.30-16.10.54:083][ 33]LogPlayFab: Response : {"code":400,"status":"BadRequest","error":"ItemNotFound","errorCode":1047,"errorMessage":"Unable to find item '43a98c11-8db9-446b-9eb0-783738a871e1'. Correlation Id: 9afvMGC6skGf54UG6NW/3A.0","errorDetails":{"MS-CV":["9afvMGC6skGf54UG6NW/3A.0"]}}
+[2023.08.30-16.11.01:435][ 56]LogBlueprintUserMessages: [WBP_Avaturn_Browser] https://maayaverse.avaturn.dev?session_id=018a4734-558e-711e-b6e9-b1c237c58d70&auth_token=eyJhbGciOiAiUlMyNTYiLCAidHlwIjogIkpXVCIsICJraWQiOiAiNDRhYmQxZDljMzFjZjJlOTQ2MzA3OGNhOWMyNzBiMDEzMjkxYTYzZiJ9.eyJpc3MiOiAiZmlyZWJhc2UtYWRtaW5zZGstMnJheDBAaW4zZC13ZWItYXZhdGFycy1wcm9kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwgInN1YiI6ICJmaXJlYmFzZS1hZG1pbnNkay0ycmF4MEBpbjNkLXdlYi1hdmF0YXJzLXByb2QuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCAiYXVkIjogImh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwgInVpZCI6ICJUV1RIN09PNUc2SjNaS1NGRVpWSEZYSlJBTFk0WVVGQyIsICJpYXQiOiAxNjkzNDExNzI2LCAiZXhwIjogMTY5MzQxNTMyNiwgImNsYWltcyI6IHsic2Vzc2lvbl9pZCI6ICIwMThhNDczNC01NThlLTcxMWUtYjZlOS1iMWMyMzdjNThkNzAifX0.IodnGh_gGy5hA2z0VQNn_k4Cokga5KnELb4-ChL2Jpxx-pAw0jZxGNQhpCVCn11_YWNmDarV34wJp1o1ljSOML1RqwFAjebLZYrDWq2ZCgTUKpiiE-DP4Nu8CZV6r1eZefD-pARBD1Agowuyx0heETZtxijkg8cKFH5XpXriJmWYSoIDFe6dFJk-FV79unTD7LzXVu2ShNh1683XM70WF4Ckp_e3xF46L3qxeSMxaHeAHjgkwocCPnEHMyFSLr5lSu4GyyrNQ9y8eytTgJJZ8Vmmpk__KjDClwNJeURO8DL9H3SF_ZX9v9OAUMT7gC07miQ3N9Jo545ThGNqwydmtQ
+[2023.08.30-16.11.26:281][517]LogPlayFab: Request: {
+	"CollectionId": null,
+	"ContinuationToken": null,
+	"Count": 10,
+	"Filter": "type eq 'ugc'"
+}
+[2023.08.30-16.11.26:462][543]LogPlayFab: Response : {"code":200,"status":"OK","data":{"Items":[{"Id":"0d909b30-a55c-49a1-9564-16303346c416","StackId":"default","DisplayProperties":{},"Amount":1,"Type":"ugc"},{"Id":"43a98c11-8db9-446b-9eb0-783738a871e1","StackId":"default","DisplayProperties":{},"Amount":1,"Type":"ugc"}],"ETag":"1/Mw=="}}
+[2023.08.30-16.11.26:462][543]LogPlayFab: Request: {
+	"AlternateIds": null,
+	"Ids": [
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1",
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1",
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1",
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1",
+		"0d909b30-a55c-49a1-9564-16303346c416",
+		"43a98c11-8db9-446b-9eb0-783738a871e1"
+	]
+}
+[2023.08.30-16.11.26:603][563]LogPlayFab: Response : {"code":400,"status":"BadRequest","error":"ItemNotFound","errorCode":1047,"errorMessage":"Unable to find item '43a98c11-8db9-446b-9eb0-783738a871e1'. Correlation Id: A8IdI0NIgEaHbKiuN4PINg.0","errorDetails":{"MS-CV":["A8IdI0NIgEaHbKiuN4PINg.0"]}}
